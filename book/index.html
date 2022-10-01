@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Book</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&family=Fauna+One&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div class="master-container">
+	<header>
+		<h2>Semaj Lopez</h2>
+	</header>
+	<div class="navigation">
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="#" id="element1" onClick="javascript:changeText(1)">Shop</a>
+			<a href="../contact/index.html">Contact Me</a>
+		</nav>
+	</div>
+	<main class="book-page">
+		<img src="../img/book-cover.png" alt="Book Cover">
+		<p>Do you feel like a unique child? Is it difficult to make friends because you feel you don't belong? I felt that way! I was born with moderate hearing loss and I had to wear hearing aids to help me communicate. I felt different from other kids my age. But one day and I learned a valuable lesson from my experience. I wrote "I'm Just Like You" to help other children to learn how to embrace living with special needs.</p>
+		<h2>If you'd like to buy my book, click on the <span>Contact Me</span> link at the top of the page.</h2>
+	</main>
+	<div class="outro">
+		<div class="outro-container">
+			<h3>Thanks for visiting and don't forget to check out my store!</h3>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-content">
+			<div class="logo">
+				<h3>Created by</h3>
+				<img src="../img/logo.png" alt="Dungee Designs logo">
+				<h3>2022</h3>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+<script>
+function changeText(idElement) {
+    var element = document.getElementById('element' + idElement);
+    if (idElement === 1) {
+        if (element.innerHTML === 'Shop') element.innerHTML = 'Coming Soon!';
+        else {
+            element.innerHTML = 'Shop';
+        }
+    }
+}
+</script>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
