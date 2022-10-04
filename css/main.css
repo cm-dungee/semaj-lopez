@@ -308,6 +308,26 @@ footer {
 	text-align: center;
 }
 
+.book-page a {
+	text-decoration: none;
+}
+
+.book-page a:link {
+	color: #FAF18B;
+}
+
+.book-page a:visited {
+	color: #FAF18B;
+}
+
+.book-page a:hover {
+	color: #69AB7D;
+}
+
+.book-page a:active {
+	color: #FAF18B;
+}
+
 /*--------------------------------CONTACT PAGE STYLES--------------------------------*/
 
 .contact-page {
