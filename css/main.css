@@ -348,6 +348,16 @@ footer {
 	text-align: center;
 }
 
+.social {
+	display: flex;
+	align-items: center;
+	margin-top: 1.5em;
+}
+
+.social img {
+	margin: 0;
+}
+
 .contact-page a {
 	text-decoration: none;
 }
@@ -578,6 +588,12 @@ footer {
 		padding: 1em;
 		margin-bottom: 7em;
 	}
+	
+	.social img {
+		margin: 0;
+		width: 35px;
+		height: 35px;
+	}
 }
 
 @media (min-width: 240px) and (max-width: 319px) {
@@ -620,6 +636,25 @@ footer {
 	
 	.book-page h2 {
 		font-size: 1rem;
+	}
+	
+	.contact-page h3 {
+		font-size: .75rem;
+	}
+	
+	.contact-page img {
+		margin-bottom: 4em;
+	}
+	
+	.contact-page {
+		padding: 1em;
+		margin-bottom: 7em;
+	}
+	
+	.social img {
+		margin: 0;
+		width: 35px;
+		height: 35px;
 	}
 }
 
