@@ -34,7 +34,7 @@
 	<div class="navigation">
 		<nav>
 			<a href="book/index.html">My Book</a>
-			<a href="#" id="element1" onClick="javascript:changeText(1)">Shop</a>
+			<a href="store/index.html">Shop</a>
 			<a href="contact/index.html">Contact Me</a>
 		</nav>
 	</div>
@@ -70,7 +70,7 @@
 		<div class="footer-content">
 			<div class="logo">
 				<h3>Created by</h3>
-				<img src="img/logo.png" alt="Dungee Designs logo">
+				<a href="https://dungeedesigns.com" target="_blank"><img src="img/logo.png" alt="Dungee Designs logo"></a>
 				<h3>2022</h3>
 			</div>
 		</div>
@@ -78,17 +78,7 @@
 </div>
 
 
-<script>
-function changeText(idElement) {
-    var element = document.getElementById('element' + idElement);
-    if (idElement === 1) {
-        if (element.innerHTML === 'Shop') element.innerHTML = 'Coming Soon!';
-        else {
-            element.innerHTML = 'Shop';
-        }
-    }
-}
-</script>
+
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
